@@ -1,0 +1,125 @@
+const { pathGenerator } = require("./helperFunctions");
+
+// Home Endpoints
+const HOME_ENDPOINT = "/home";
+const HOME_GET_ENDPOINT = pathGenerator(HOME_ENDPOINT, "/get");
+const HOME_UPDATE_ENDPOINT = pathGenerator(HOME_ENDPOINT, "/update");
+
+const HOME_ENDPOINTS = {
+  HOME_ENDPOINT,
+  HOME_GET_ENDPOINT,
+  HOME_UPDATE_ENDPOINT,
+};
+
+// Services Endpoints
+const SERVICES_ENDPOINT = "/services";
+const SERVICES_GET_ENDPOINT = pathGenerator(SERVICES_ENDPOINT, "/get");
+const SERVICES_POST_ENDPOINT = pathGenerator(SERVICES_ENDPOINT, "/post");
+const SERVICES_UPDATE_ENDPOINT = pathGenerator(
+  SERVICES_ENDPOINT,
+  "/update",
+  "/:id"
+);
+const SERVICES_DELETE_ENDPOINT = pathGenerator(
+  SERVICES_ENDPOINT,
+  "/delete",
+  "/:id"
+);
+
+const SERVICES_ENDPOINTS = {
+  SERVICES_ENDPOINT,
+  SERVICES_GET_ENDPOINT,
+  SERVICES_POST_ENDPOINT,
+  SERVICES_UPDATE_ENDPOINT,
+  SERVICES_DELETE_ENDPOINT,
+};
+
+// About Endpoints
+const ABOUT_ENDPOINT = "/about";
+const ABOUT_GET_ENDPOINT = pathGenerator(ABOUT_ENDPOINT, "/get");
+const ABOUT_POST_ENDPOINT = pathGenerator(ABOUT_ENDPOINT, "/post");
+const ABOUT_UPDATE_ENDPOINT = pathGenerator(ABOUT_ENDPOINT, "/update");
+const ABOUT_DELETE_ENDPOINT = pathGenerator(ABOUT_ENDPOINT, "/delete");
+
+const ABOUT_ENDPOINTS = {
+  ABOUT_ENDPOINT,
+  ABOUT_GET_ENDPOINT,
+  ABOUT_UPDATE_ENDPOINT,
+};
+
+// Skills Endpoints
+const SKILLS_ENDPOINT = "/skills";
+const SKILLS_GET_ENDPOINT = pathGenerator(SKILLS_ENDPOINT, "/get");
+const SKILLS_POST_ENDPOINT = pathGenerator(SKILLS_ENDPOINT, "/post");
+const SKILLS_UPDATE_ENDPOINT = pathGenerator(SKILLS_ENDPOINT, "/update");
+const SKILLS_DELETE_ENDPOINT = pathGenerator(SKILLS_ENDPOINT, "/delete");
+
+const SKILLS_ENDPOINTS = {
+  SKILLS_ENDPOINT,
+  SKILLS_GET_ENDPOINT,
+  SKILLS_UPDATE_ENDPOINT,
+};
+
+// Portfolio Endpoints
+const PORTFOLIO_ENDPOINT = "/portfolio";
+const PORTFOLIO_GET_ENDPOINT = pathGenerator(PORTFOLIO_ENDPOINT, "/get");
+const PORTFOLIO_POST_ENDPOINT = pathGenerator(PORTFOLIO_ENDPOINT, "/post");
+const PORTFOLIO_UPDATE_ENDPOINT = pathGenerator(PORTFOLIO_ENDPOINT, "/update");
+const PORTFOLIO_DELETE_ENDPOINT = pathGenerator(PORTFOLIO_ENDPOINT, "/delete");
+
+const PORTFOLIO_ENDPOINTS = {
+  PORTFOLIO_ENDPOINT,
+  PORTFOLIO_GET_ENDPOINT,
+  PORTFOLIO_POST_ENDPOINT,
+  PORTFOLIO_UPDATE_ENDPOINT,
+  PORTFOLIO_DELETE_ENDPOINT,
+};
+
+// Clients Endpoints
+const CLIENTS_ENDPOINT = "/clients";
+const CLIENTS_GET_ENDPOINT = pathGenerator(CLIENTS_ENDPOINT, "/get");
+const CLIENTS_POST_ENDPOINT = pathGenerator(CLIENTS_ENDPOINT, "/post");
+const CLIENTS_UPDATE_ENDPOINT = pathGenerator(CLIENTS_ENDPOINT, "/update");
+const CLIENTS_DELETE_ENDPOINT = pathGenerator(CLIENTS_ENDPOINT, "/delete");
+
+const CLIENTS_ENDPOINTS = {
+  CLIENTS_ENDPOINT,
+  CLIENTS_GET_ENDPOINT,
+  CLIENTS_UPDATE_ENDPOINT,
+};
+
+// Contact Endpoints
+const CONTACT_ENDPOINT = "/contact";
+const CONTACT_GET_ENDPOINT = pathGenerator(CONTACT_ENDPOINT, "/get");
+const CONTACT_POST_ENDPOINT = pathGenerator(CONTACT_ENDPOINT, "/post");
+const CONTACT_UPDATE_ENDPOINT = pathGenerator(CONTACT_ENDPOINT, "/update");
+const CONTACT_DELETE_ENDPOINT = pathGenerator(CONTACT_ENDPOINT, "/delete");
+
+const CONTACT_ENDPOINTS = {
+  CONTACT_ENDPOINT,
+  CONTACT_GET_ENDPOINT,
+  CONTACT_UPDATE_ENDPOINT,
+};
+
+// Get In Touch Endpoints
+const GET_IN_TOUCH_ENDPOINT = "/getInTouch";
+const GET_IN_TOUCH_POST_ENDPOINT = pathGenerator(
+  GET_IN_TOUCH_ENDPOINT,
+  "/post"
+);
+
+const GET_IN_TOUCH_ENDPOINTS = {
+  GET_IN_TOUCH_ENDPOINT,
+  GET_IN_TOUCH_POST_ENDPOINT,
+};
+
+module.exports = {
+  HOME_ENDPOINTS,
+  SERVICES_ENDPOINTS,
+  ABOUT_ENDPOINTS,
+  SKILLS_ENDPOINTS,
+  PORTFOLIO_ENDPOINTS,
+  CLIENTS_ENDPOINTS,
+  CONTACT_ENDPOINTS,
+  GET_IN_TOUCH_ENDPOINTS,
+};

@@ -1,0 +1,125 @@
+{
+  "home": {
+    "welcomeMessage": "Saalaaaam",
+    "abilities": [
+      "Front-endd",
+      "back endd"
+    ],
+    "socialAccounts": [
+      {
+        "platform": "Instagram",
+        "icon": "icon",
+        "url": "www.instg.com"
+      },
+      {
+        "platform": "salam",
+        "icon": "aleykum",
+        "url": "besinciboyut.com"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "e0324386-279d-4c4b-aa5e-8f4cfd805a2a",
+      "title": "Back-end",
+      "icon": "i",
+      "description": "Backend applications"
+    },
+    {
+      "id": "657429e4-dfb1-4c91-8f87-65edd0f08c98",
+      "title": "Front-end",
+      "icon": "i",
+      "description": "Frontend applications"
+    },
+    {
+      "id": "b95e8445-2235-4cac-9d50-efdde3b59c92",
+      "title": "DecSecOps",
+      "icon": "i",
+      "description": "Security Flow"
+    }
+  ],
+  "about": {
+    "welcomeMessage": "",
+    "description": "",
+    "name": "",
+    "email": "",
+    "phone": "",
+    "twitter": "",
+    "cv": ""
+  },
+  "skills": {
+    "heading": "",
+    "description": "",
+    "skills": [
+      {
+        "skillName": "",
+        "percentage": 0
+      },
+      {
+        "skillName": "",
+        "percentage": 0
+      }
+    ]
+  },
+  "portfolio": {
+    "works": [
+      {
+        "type": "design",
+        "img": "x",
+        "heading": "Designering"
+      },
+      {
+        "type": "sdf",
+        "img": "sdfs",
+        "heading": "sdfs"
+      },
+      {
+        "type": "af",
+        "img": "dfww",
+        "heading": "wfefw"
+      },
+      {
+        "type": "sad",
+        "img": "sadasd",
+        "heading": "sadasd"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "salam",
+        "count": 80
+      },
+      {
+        "type": "aleykum",
+        "count": "100"
+      }
+    ]
+  },
+  "clients": {
+    "clientCommentsCards": [
+      {
+        "heading": "",
+        "img": "",
+        "name": "",
+        "companyName": ""
+      }
+    ],
+    "companies": []
+  },
+  "contact": {
+    "infoCards": [
+      {
+        "type": "",
+        "info": "",
+        "icon": ""
+      }
+    ],
+    "socials": [
+      {
+        "platform": "",
+        "icon": "",
+        "url": ""
+      }
+    ]
+  }
+}

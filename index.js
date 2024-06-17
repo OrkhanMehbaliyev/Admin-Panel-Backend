@@ -4,7 +4,7 @@ const corsMiddleware = require("./middlewares/cors-handler");
 const generateResponse = require("./utils/response-generator");
 const { ErrorResponse } = require("./utils/response");
 
-const PORT = 3333;
+const PORT = 3000;
 
 const server = http.createServer((req, res) => {
   corsMiddleware(req, res, () => {
